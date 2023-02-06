@@ -1,6 +1,6 @@
 ## Mini Blockworks Instructions
 
-About:
+
 Welcome to Mini Blockworks where you can learn all about Bitcoin, Ethereum, and more!
 
 To get started:
