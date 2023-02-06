@@ -16,8 +16,9 @@ export default function AssetDetails() {
   const categoryOptions = ["payment", "financial", "infrastructure"]
 
   useEffect(() => {
+    if(asset){
       getPrice()
-      memoHook
+      memoHook}
   }, [asset]);
 
   //***fetch current price of asset from api***
