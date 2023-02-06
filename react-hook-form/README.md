@@ -1,3 +1,21 @@
+## Mini Blockworks Instructions
+
+About:
+Welcome to Mini Blockworks where you can learn all about Bitcoin, Ethereum, and more!
+
+To get started:
+
+run "npm install"
+then "npm run miniBlockworks" 
+
+Navigate to localhost:30000
+
+Enjoy the easy, quick, and intuitive layout of Mini Blockworks and gain knowledge on these assets!
+
+Thank you for your time :)
+
+![Mini Blockworks](/react-hook-form/public/images/readMe.png "Mini Blockworks")
+
 ## React Hook Form Challenge
 
 Use "react-hook-form" to build a form with custom validations and performance in mind.

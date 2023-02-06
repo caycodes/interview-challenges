@@ -18,6 +18,7 @@
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
+  align-items: center;
 }
 
 .headingMd {
@@ -26,7 +27,7 @@
 }
 
 .borderCircle {
-  border-radius: 9999px;
+  border-radius: 50px;
 }
 
 .colorInherit {
@@ -44,9 +45,6 @@
 }
 
 .listItem {
-  margin: 0 0 1.25rem;
-}
-
-.lightText {
-  color: #666;
+  padding-bottom: 3rem;
+  padding-left: 1.25rem;
 }

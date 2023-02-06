@@ -4,8 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Mini Blockworks'
 
 export default function Layout({
   children,
@@ -36,13 +35,13 @@ export default function Layout({
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/BlockworksLogo.png"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
+              height={100}
+              width={300}
+              alt={siteTitle}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>{siteTitle}</h1>
           </>
         ) : (
           <>
@@ -53,12 +52,12 @@ export default function Layout({
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
-                alt={name}
+                alt={siteTitle}
               />
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/" className={utilStyles.colorInherit}>
-                {name}
+                {siteTitle}
               </Link>
             </h2>
           </>

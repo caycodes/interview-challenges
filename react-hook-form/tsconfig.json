@@ -16,5 +16,5 @@
     "incremental": true
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/posts/[id].js", "context/assetsContext.js", "pages/index.js", "pages/_app.js", "pages/api/price.js", "pages/api/form.js", "hooks/useAssets.js", "context/assets.js"]
 }
