@@ -8,7 +8,7 @@ To get started:
 run "npm install"
 then "npm run miniBlockworks" 
 
-Navigate to localhost:30000
+Navigate to localhost:3000
 
 Enjoy the easy, quick, and intuitive layout of Mini Blockworks and gain knowledge on these assets!
 
